@@ -9,8 +9,9 @@ This is a source code for LED Control.
 ### Prerequisites
 You need:
 * Erlang R16B02 (erts-5.10.3)
+* Arduino IDE
 
-You can get it on [erlang-solutions.com](https://www.erlang-solutions.com/).
+You can get latest Erlang on [erlang-solutions.com](https://www.erlang-solutions.com/).
 
 That's it. :)
 
@@ -33,6 +34,9 @@ To generate a release:
 ```
 make release
 ```
+
+Arduino firmware source is in `blinker/blinker.ino`
+
 
 ***
 
