@@ -83,7 +83,7 @@ release:
 	./rebar compile generate
 	@echo -e '\nNow grab release in "rel/ledctl"'
 clean:
-	rm -rf temp ebin deps rebar rel launch.sh
+	rm -rf temp ebin deps rebar rel launch.sh rebar.config Makefile
 EOF
 
 echo 'Run "make"'
